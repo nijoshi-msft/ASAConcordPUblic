@@ -1,0 +1,22 @@
+{
+    "name": "myASAProject",
+    "startFile": "myASAProject.asaql",
+    "configurations": [
+        {
+            "filePath": "JobConfig.json",
+            "subType": "JobConfig"
+        },
+        {
+            "filePath": "Inputs/Local_Input.json",
+            "subType": "InputMock"
+        },
+        {
+            "filePath": "Inputs/input.json",
+            "subType": "Input"
+        },
+        {
+            "filePath": "Outputs/output.json",
+            "subType": "Output"
+        }
+    ]
+}

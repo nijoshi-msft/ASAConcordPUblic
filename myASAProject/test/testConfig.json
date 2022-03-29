@@ -1,0 +1,27 @@
+{
+  "Script": "",
+  "TestCases": [
+    {
+      "Name": "Case 1",
+      "Inputs": [
+        {
+          "InputAlias": "input",
+          "Type": "Data Stream",
+          "Format": "Json",
+          "FilePath": "../Data/input.json",
+          "SerializationDllPath": null,
+          "SerializationClassName": null,
+          "SerializationDllPathInLocal": null,
+          "ScriptType": "InputMock"
+        }
+      ],
+      "ExpectedOutputs": [
+        {
+          "OutputAlias": "output",
+          "FilePath": "../Data/output.json",
+          "Required": true
+        }
+      ]
+    }
+  ]
+}

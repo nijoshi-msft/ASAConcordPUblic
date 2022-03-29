@@ -1,0 +1,25 @@
+{
+    "Name": "output",
+    "DataSourceType": "Blob Storage",
+    "BlobStorageProperties": {
+        "StorageAccounts": [
+            {
+                "AccountName": "wenyunasatest",
+                "AccountKey": null
+            }
+        ],
+        "Container": "joboutput",
+        "PathPattern": "",
+        "DateFormat": "yyyy/MM/dd",
+        "TimeFormat": "HH",
+        "AuthenticationMode": "ConnectionString"
+    },
+    "DataSourceCredentialDomain": "1f58da8a-951d-4aed-a0a6-d89a8afcba7d.StreamAnalystics",
+    "Serialization": {
+        "Type": "Json",
+        "Encoding": "UTF8",
+        "FieldDelimiter": null,
+        "Format": "LineSeparated"
+    },
+    "ScriptType": "Output"
+}

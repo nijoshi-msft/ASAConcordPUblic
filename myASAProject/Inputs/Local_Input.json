@@ -1,0 +1,7 @@
+{
+    "InputAlias": "Input",
+    "Type": "Data Stream",
+    "Format": "Json",
+    "FilePath": "../Data/input.json",
+    "ScriptType": "InputMock"
+}

@@ -1,0 +1,78 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "ASAApiVersion": {
+      "value": "2017-04-01-preview"
+    },
+    "StreamAnalyticsJobName": {
+      "value": "myASAProject"
+    },
+    "Location": {
+      "value": "Central US"
+    },
+    "OutputStartMode": {
+      "value": "JobStartTime"
+    },
+    "OutputStartTime": {
+      "value": "2019-01-01T00:00:00Z"
+    },
+    "DataLocale": {
+      "value": "en-US"
+    },
+    "OutputErrorPolicy": {
+      "value": "Stop"
+    },
+    "EventsLateArrivalMaxDelayInSeconds": {
+      "value": 5
+    },
+    "EventsOutOfOrderMaxDelayInSeconds": {
+      "value": 0
+    },
+    "EventsOutOfOrderPolicy": {
+      "value": "Adjust"
+    },
+    "StreamingUnits": {
+      "value": 3
+    },
+    "CompatibilityLevel": {
+      "value": "1.2"
+    },
+    "Input_input_iotHubNamespace": {
+      "value": "yuljinih"
+    },
+    "Input_input_consumerGroupName": {
+      "value": "$Default"
+    },
+    "Input_input_endpoint": {
+      "value": "messages/events"
+    },
+    "Input_input_sharedAccessPolicyName": {
+      "value": "iothubowner"
+    },
+    "Input_input_sharedAccessPolicyKey": {
+      "value": null
+    },
+    "Output_output_Storage1_accountName": {
+      "value": "wenyunasatest"
+    },
+    "Output_output_Storage1_accountKey": {
+      "value": null
+    },
+    "Output_output_container": {
+      "value": "joboutput"
+    },
+    "Output_output_pathPattern": {
+      "value": ""
+    },
+    "Output_output_dateFormat": {
+      "value": "yyyy/MM/dd"
+    },
+    "Output_output_timeFormat": {
+      "value": "HH"
+    },
+    "Output_output_authenticationMode": {
+      "value": "ConnectionString"
+    }
+  }
+}
