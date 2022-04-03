@@ -23,7 +23,7 @@ azure-streamanalytics-cicd build -project <projectFullPath> [-outputPath <output
 
 Example:
 
-VS Code project
+VS Code project test
 ```powershell
 azure-streamanalytics-cicd build -project "/Users/roger/projects/samplejob/asaproj.json"
 ```
