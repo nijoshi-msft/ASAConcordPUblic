@@ -4,8 +4,8 @@
     "BlobStorageProperties": {
         "StorageAccounts": [
             {
-                "AccountName": "wenyunasatest",
-                "AccountKey": null
+                "AccountName": "sourcewestus",
+                "AccountKey": "RQaxawR/+kEtnV4dRcAJthYuYHOvAulpbOcv5FoVrNm5bKSxG1qKU0H3pA2SffwbC7KC+ty0lMp+FOjnazSE5g=="
             }
         ],
         "Container": "joboutput",
