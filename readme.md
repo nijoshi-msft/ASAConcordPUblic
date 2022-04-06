@@ -1,7 +1,7 @@
 # Continuously integrate and develop with Stream Analytics CI/CD npm package
 You can use the Azure Stream Analytics CI/CD npm package to set up a continuous integration and deployment process for your Stream Analytics jobs. This article describes how to use the npm package in general with any CI/CD system, as well as specific instructions for deployment with Azure Pipelines.
 
-## How to install
+## How to install npm
 ```
 npm install -g azure-streamanalytics-cicd-1.0.9-preview.tgz
 ```
