@@ -3,10 +3,10 @@
     "Type": "Data Stream",
     "DataSourceType": "IoT Hub",
     "IoTHubProperties": {
-        "IotHubNamespace": "yuljinih",
-        "EndPoint": "messages/events",
+        "IotHubNamespace": "iothub11131",
+        "EndPoint": "sb://iothub-ns-iothub1113-18399113-e5c350a8b7.servicebus.windows.net/",
         "SharedAccessPolicyName": "iothubowner",
-        "SharedAccessPolicyKey": null,
+        "SharedAccessPolicyKey": "SPgSZc/P4qSrX2ldhtaYQZeAE5l2lnC8vpzi4rGxduk=",
         "ConsumerGroupName": "$Default"
     },
     "DataSourceCredentialDomain": "2403f92e-772b-49c7-9ba4-4407fb313e5c.StreamAnalystics",
