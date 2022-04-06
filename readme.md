@@ -8,7 +8,7 @@ npm install -g azure-streamanalytics-cicd-1.0.9-preview.tgz
 
 To use the package in a pipeline, you need to upload the package file before installing it [globally](https://docs.npmjs.com/downloading-and-installing-packages-globally) via the `npm install -g azure-streamanalytics-cicd-1.0.9-preview.tgz` command, as the package hasn't been released yet. This is the recommended approach, which can also be used in a PowerShell or Azure CLI script task of a build pipeline in **Azure Pipelines**.
 
-## How to use CI
+## How to use CI/CD
 ### Build
 Use the following command to generate the Azure Resource Manager templates. The command is the same for Visual Studio Code and Visual Studio Project.
 
