@@ -4,7 +4,8 @@
     "DataSourceType": "IoT Hub",
     "IoTHubProperties": {
         "IotHubNamespace": "iothub11131",
-        "EndPoint": "sb://iothub-ns-iothub1113-18399113-e5c350a8b7.servicebus.windows.net/",
+        //"EndPoint": "sb://iothub-ns-iothub1113-18399113-e5c350a8b7.servicebus.windows.net/",
+        "EndPoint": "messages/events",
         "SharedAccessPolicyName": "iothubowner",
         "SharedAccessPolicyKey": "SPgSZc/P4qSrX2ldhtaYQZeAE5l2lnC8vpzi4rGxduk=",
         "ConsumerGroupName": "$Default"
