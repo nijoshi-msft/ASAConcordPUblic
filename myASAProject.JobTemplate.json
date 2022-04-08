@@ -123,6 +123,12 @@
     "Output_output_Storage1_accountKey": {
       "type": "string"
     },
+    "Output_output_Storage2_accountName": {
+      "type": "string"
+    },
+    "Output_output_Storage2_accountKey": {
+      "type": "string"
+    },
     "Output_output_container": {
       "type": "string"
     },
