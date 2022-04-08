@@ -4,11 +4,11 @@
     "BlobStorageProperties": {
         "StorageAccounts": [
             {
-                "AccountName": "sourcewestus",
-                "AccountKey": "RQaxawR/+kEtnV4dRcAJthYuYHOvAulpbOcv5FoVrNm5bKSxG1qKU0H3pA2SffwbC7KC+ty0lMp+FOjnazSE5g=="
+                "AccountName": "asastorageaccountnijoshi",
+                "AccountKey": "JBLYGs0y00TuRJdlIKKSLbXmS/t+HqyhRPTi147p2j+BAnGncqCM7ZwJlwdNEAB2rF/l31GA1lu7+AStU+MX9A=="
             }
         ],
-        "Container": "joboutput",
+        "Container": "asaoutput",
         "PathPattern": "",
         "DateFormat": "yyyy/MM/dd",
         "TimeFormat": "HH",
