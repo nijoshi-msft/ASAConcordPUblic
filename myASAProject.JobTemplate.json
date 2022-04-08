@@ -226,6 +226,34 @@
                 }
               }
             }
+          },
+          {
+            "name": "output2",
+            "properties": {
+              "serialization": {
+                "type": "Json",
+                "properties": {
+                  "encoding": "UTF8",
+                  "format": "LineSeparated"
+                }
+              },
+              "datasource": {
+                "type": "Microsoft.Storage/Blob",
+                "properties": {
+                  "storageAccounts": [
+                    {
+                      "accountName": "[parameters('Output_output_Storage2_accountName')]",
+                      "accountKey": "[parameters('Output_output_Storage2_accountKey')]"
+                    }
+                  ],
+                  "container": "[parameters('Output_output_container')]",
+                  "pathPattern": "[parameters('Output_output_pathPattern')]",
+                  "dateFormat": "[parameters('Output_output_dateFormat')]",
+                  "timeFormat": "[parameters('Output_output_timeFormat')]",
+                  "authenticationMode": "[parameters('Output_output_authenticationMode')]"
+                }
+              }
+            }
           }
         ]
       }
