@@ -59,6 +59,12 @@
     "Output_output_Storage1_accountKey": {
       "value": null
     },
+    "Output_output_Storage2_accountName": {
+      "value": "sourcewestus"
+    },
+    "Output_output_Storage2_accountKey": {
+      "value": null
+    },
     "Output_output_container": {
       "value": "joboutput"
     },
