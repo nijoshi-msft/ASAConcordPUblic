@@ -12,24 +12,12 @@ flows:
       jobName: "ASA-CICD"
 
 triggers:
-# fire when concord.yml is modified
 - github:
-    entryPoint: "onConcordUpdate"
+    entryPoint: onEvent
     conditions:
-      type: "push"
-      branch: "master"
-      files:
-        modified:
-          - "concord.yml"
+      githubOrg: ".*"
+      githubRepo: ".*"
+      branch: ".*"
 
-# fire when any file within src/ is added, modified, or deleted
-- github:
-    entryPoint: "onSrcChanged"
-    conditions:
-      type: "push"
-      branch: "master"
-      files:
-        any:
-          - "src/.*"
 
 
