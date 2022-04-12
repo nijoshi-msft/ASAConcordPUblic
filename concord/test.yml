@@ -4,4 +4,4 @@ configuration:
       name: "stranger"
 flows:
   default:
-  - log: "Hello, ${nested.name}!"
+  - log: "Hello!!, ${nested.name}!"
