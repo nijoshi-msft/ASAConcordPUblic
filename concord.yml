@@ -11,4 +11,14 @@ flows:
       apiToken: "11f67de0970a82d4064421a3158e3fce8c"
       jobName: "ASA-CICD"
 
+  flows:
+  onPush:
+  - log: "${event.sender} pushed ${event.commitId} to ${event.payload.repository.full_name}"
   
+triggers:
+- github:
+    useInitiator: true
+    entryPoint: onPush
+    conditions:
+      type: push
+
