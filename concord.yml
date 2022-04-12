@@ -4,7 +4,6 @@ configuration:
 
 flows:
   default:
-    - log: "Hello Concord User!"
   - task: jenkins
     in:
       baseUrl: "http://20.235.5.90:8080"
