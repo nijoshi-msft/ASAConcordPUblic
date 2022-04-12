@@ -1,3 +1,7 @@
+configuration:
+  dependencies:
+  - mvn://com.walmartlabs.concord.plugins:jenkins-task:1.40.0
+
 flows:
   default:
   - log: "Hello Concord User!"
